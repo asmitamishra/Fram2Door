@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/shop.css" />
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+<header>
+      <nav class="nav container" style="max-width:100%;">
+        <a href="index.html" class="nav__logo">
+          <img src="/assets/img/f2dlogosmall.png" alt="" />
+        </a>
+        <a href="index.html" class="nav__logo">
+          FARM2DOOR
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#aboutus" class="nav__link">About Us</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link">Shop From</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login.html" class="nav__link">Sign up/Log in</a>
+            </li>
+          </ul>
+        
+        </div>
+        
+      </nav>
+    </header>
+    <div class="searchbar">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button type="submit" id="searchButton"><i class="fi fi-rs-search"></i></button>
+  </div>
+  <button id="gps-button">Find Farmers near you</button>
+    
+  </div>
+  
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb"></section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products section container">
+        <div class="tab--btns">
+          <span class="tab__btn active-tab">Featured</span>
+          <span class="tab__btn">Popular</span>
+          <span class="tab__btn">New Added</span>
+        </div>
+        <div class="tab__items">
+          <div class="tab__item active-tab">
+            <div class="products__container grid">
+              
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/rice.jpg"
+                      alt=""
+                      class="product__img default"
+                      style="width:100%; height: 250px;;"
+                      
+                    />
+                    <img
+                      src="assets/img/rice grain.jpg"
+                      alt=""
+                      class="product__img hover"
+                      style="width:100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-20%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Pansu Lal Gontiya</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Rice</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs320/10kg </span>
+                      <span class="old__class">Rs400/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/redpepper_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="/assets/img/Vehnäpelto_6.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-18%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Binay Kumar Biswas</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Wheat</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs230/10kg </span>
+                      <span class="old__class">Rs280/10kg  </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/lentil.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/lentil_grains.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">-22%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Sanjay Bera</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Dal</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 700/10kg </span>
+                      <span class="old__class">Rs 900/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/soyabean.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/soyabean_grain.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">-8%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Tanmoy Saha</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Soyabean</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs550/10kg </span>
+                      <span class="old__class">Rs600/10kg  </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/moong_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/moong.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-pink">-25%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Bidyut Das</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Moong Dal</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs900/10kg </span>
+                      <span class="old__class">Rs1200/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/turmeric_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/turmeric.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">-8%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Utpal Chakroborty</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Turmeric</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs155/kg- </span>
+                      <span class="old__class">Rs170/kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/redpepper_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/redpepper.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-22%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Manas Ranjan Giri </span>
+                    <a href="details.html">
+                      <h3 class="product__title">Red Pepper</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/kg </span>
+                      <span class="old__class">Rs 260/kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--change photo-->
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="/assets/img/moong_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="/assets/img/moong_field.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge ligth-green">20%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Srimashram</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Moong</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 320/10kg </span>
+                      <span class="old__class">Rs 400/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--change photo-->
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="/assets/img/rice.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="/assets/img/rice.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-pink">18%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Sri Binod Bairagi</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Rice</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 230/10kg </span>
+                      <span class="old__class">Rs 280/10kg</span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/redpepper_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="/assets/img/Vehnäpelto_6.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-22%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Binay Kumar Biswas</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Wheat</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10kg </span>
+                      <span class="old__class">Rs 260/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/rice.jpg"
+                      alt=""
+                      class="product__img default"
+                      style="width:100%; height: 250px;;"
+                      
+                    />
+                    <img
+                      src="assets/img/rice grain.jpg"
+                      alt=""
+                      class="product__img hover"
+                      style="width:100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">18%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Binay Kumar Biswas</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Rice</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10kg </span>
+                      <span class="old__class">Rs 260/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/lentil.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/lentil_grains.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-orange">18%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Sanjay Bera</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Soyabean</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10kg </span>
+                      <span class="old__class">Rs 260/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/soyabean.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/soyabean_grain.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">18%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Tanmoy Saha</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Soyabean</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10kg </span>
+                      <span class="old__class">Rs 260/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/moong_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/moong.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-pink">-30%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Bidyut Das</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Moong Dal</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10g </span>
+                      <span class="old__class">Rs 2600/- </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/turmeric_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/turmeric.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-blue">-22%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Utpal Chakroborty</span>
+                    <a href="details.html">
+                      <h3 class="product__title">Turmeric</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10kg </span>
+                      <span class="old__class">Rs 2600/- </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product__item">
+                <div class="product__banner">
+                  <a href="details.html" class="product__images">
+                    <img
+                      src="assets/img/redpepper_field.jpg"
+                      alt=""
+                      class="product__img default"
+                     style="width: 100%; height:250px;"
+                    />
+                    <img
+                      src="assets/img/redpepper.jpg"
+                      alt=""
+                      class="product__img hover"
+                     style="width: 100%; height:250px;"
+                    />
+                  </a>
+                  <div class="product__actions">
+                    <a href="#" class="action__btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="action__btn"
+                      aria-label="Add To Wishlist"
+                    >
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                    <a href="#" class="action__btn" aria-label="Compare">
+                      <i class="fi fi-rs-shuffle"></i>
+                    </a>
+                  </div>
+
+                  <div class="product__badge light-green">-22%</div>
+
+                  <div class="product__content">
+                    <span class="product__category">Manas Ranjan Giri </span>
+                    <a href="details.html">
+                      <h3 class="product__title">Red Pepper</h3>
+                    </a>
+                    <div class="product__rating">
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                      <i class="fi fi-rs-star"></i>
+                    </div>
+                    <div class="product__price flex">
+                      <span class="new__price"> Rs 240/10kg </span>
+                      <span class="old__class">Rs 260/10kg </span>
+                    </div>
+                    <a
+                      href="#"
+                      class="action__btn cart__btn"
+                      aria-label="Add To Cart"
+                    >
+                      <i class="fi fi-rs-shopping-bag-add"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+           
+      </div>
+    </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter"></section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="container-footer w-container" id="id">
+        <div class="w-row">
+          <div class="footer-column w-clearfix w-col w-col-4"><img src="/assets/img/f2dlogo.png" alt="" class="failory-logo-image">
+            <h3 class="footer-failory-name">Farm2Door</h3>
+            <p class="footer-description-failory">Farmer Online, Customer Divine<br></p>
+          </div>
+          <div class="footer-column w-col w-col-8">
+            <div class="w-row">
+              <div class="w-col w-col-8">
+                <div class="w-row">
+                  <div class="w-col w-col-7 w-col-small-6 w-col-tiny-7">
+                    <h2 class="footer-titles">Team members</h2>
+                    <p class="footer-links">Divya Shukla</p>
+                    <p class="footer-links">Shatakshi Patel</p>
+                    <p class="footer-links">Aahna Tiwari</p>
+                    <p class="footer-links">Asmita Mishra</p>
+                    <p class="footer-links">Ayushi Lokhande</p>
+                    <p class="footer-links">Geetu Raikwar</p>
+                  </div>
+                  <div class="w-col w-col-5 w-col-small-6 w-col-tiny-5">
+                    <h2 class="footer-titles">Other</h2>
+                    <p class="footer-links"><a href=""><span class="footer-link">Sponsor Us!<br></span></a><a href=""><span class="footer-link">Open Startup<br></span></a><a href=""><span class="footer-link"></span></a><a href=""><span class="footer-link">Contribute<br></span></a><a href=""><span class="footer-link">FAQ</span></a><strong><br></strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="column-center-mobile w-col w-col-4">
+                <h2 class="footer-titles">Follow Us!</h2><a href="" target="_blank" class="footer-social-network-icons w-inline-block"><img src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbf0a2f2b67e3b3ba079c_Twitter%20Icon.svg" width="20" alt="Twitter icon"></a><a href="" target="_blank" class="footer-social-network-icons w-inline-block"><img src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbfe70fcf5a0514c5b1da_Instagram%20Icon.svg" width="20" alt="Instagram icon"></a><a href="" target="_blank" class="footer-social-network-icons w-inline-block"><img src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbe42e1e6034fdaba46f6_Facebook%20Icon.svg" width="20" alt="Facebook Icon"></a><a href="" target="_blank" class="footer-social-network-icons w-inline-block"><img src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dc0002f2b676eb4ba0869_LinkedIn%20Icon.svg" width="20" alt="LinkedIn Icon"></a><a href="" target="_blank" class="footer-social-network-icons w-inline-block"><img src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dc0112f2b6739c9ba0871_Pinterest%20Icon.svg" width="20" alt="Pinterest Icon" class=""></a>
+                <p class="footer-description">Email : <a href=""><strong class="link-email-footer">Farm2Door@gmail.com</strong></a><br></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="/assets/js/script.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src=""></script>
+  </body>
+</html>

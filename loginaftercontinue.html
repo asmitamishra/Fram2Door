@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/login_style.css" />
+    <script
+      src="https://kit.fontawesome.com/94fce03213.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background-image"></div>
+    </div>
+    <div class="form-box">
+      <h1 id="title">Sign Up</h1>
+      <form>
+        <div class="input-group">
+          <div class="input-field">
+            <i class="fa-regular fa-user" style="color: #000000"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-field" id="namefield">
+            <i class="fa-regular fa-envelope" style="color: #252627"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fa-solid fa-lock" style="color: #161718"></i>
+            <input type="text" placeholder="Password" />
+          </div>
+          <div class="input-field" id="confirmPassfield">
+            <i class="fa-solid fa-lock" style="color: #161718"></i>
+            <input type="text" placeholder="Confirm Password" />
+          </div>
+        </div>
+        <div class="btn-field">
+          <button type="button" id="signupbtn">Sign Up</button>
+          <button type="button" id="loginbtn" class="disabled">Log In</button>
+        </div>
+      </form>
+    </div>
+    <script>
+      let signupbtn = document.getElementById("signupbtn");
+      let loginbtn = document.getElementById("loginbtn");
+      let namefield = document.getElementById("namefield");
+      let confirmPassfield = document.getElementById("confirmPassfield");
+      let stitle = document.getElementById("title");
+
+      loginbtn.onclick = function () {
+        namefield.style.maxHeight = "0";
+        confirmPassfield.style.maxHeight = "0";
+        title.innerHTML = "Log In";
+        signupbtn.classList.add("disabled");
+        loginbtn.classList.remove("disabled");
+      };
+      signupbtn.onclick = function () {
+        namefield.style.maxHeight = "60px";
+        confirmPassfield.style.maxHeight = "60px";
+        title.innerHTML = "Sign Up";
+        signupbtn.classList.remove("disabled");
+        loginbtn.classList.add("disabled");
+      };
+    </script>
+  </body>
+</html>
